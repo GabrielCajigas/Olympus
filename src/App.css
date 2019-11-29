@@ -1,0 +1,62 @@
+.navbar-custom {
+    background-color: #A9A9A9 ;
+}
+
+
+/* change the link color */
+.navbar-custom .nav-item {
+    color: rgba(21, 1, 4, 0.945);
+}
+
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active ,
+.navbar-custom .nav-item:hover {
+    color: #ffffff;
+    text-decoration:none;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background: url(/img/areshelmet.jpg) no-repeat;
+    background-size:cover;
+    /* background-position:bottom ; */
+    /* background-color:red; */
+}
+
+.text-white{
+    -webkit-text-stroke-width: .7px;
+  -webkit-text-stroke-color: #18a2b8;
+  color:white!important;
+  font-size: 22px;
+  font-weight: 600;
+
+}
+.text-custom{
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: white;
+    color:grey!important;
+    font-weight: 600;
+
+}
+.card{
+    background-color: transparent!important;
+}
+
+.onhover:hover {
+    width: 120%;
+}
+.text-noti{
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color:#18a2b8;
+    color:black!important;
+    font-weight: 300;
+}
+.text-user {
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color:grey;
+    color:white!important;
+    font-weight: 500;
+}
+

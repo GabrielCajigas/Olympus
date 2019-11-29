@@ -1,3 +1,6 @@
+This project is an activity planer with user authentication. Developed using React , Redux and Firebase.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

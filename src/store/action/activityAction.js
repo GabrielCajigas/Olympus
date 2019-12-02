@@ -24,7 +24,7 @@ export const createActivity = (activity) =>{
 export const deleteActivity = (activity) =>{
     return (dispatch, getState, {getFirebase, getFirestore}) => {
         const firestore = getFirestore();
-        console.log(getState().firestore.ordered.activities[0].id);
+        // console.log(getState().firestore.ordered.activities[0].id);
         const activityid = getState().firestore.ordered.activities[0].id;
         firestore.collection('activities').doc(activityid).delete().then(()=> {
             dispatch ({ type : 'DELETE_ACTIVITY', activity});

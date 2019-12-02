@@ -11,7 +11,7 @@ const ActivityDetails = (props) => {
  
   
     const { activity, login } = props;
-    console.log(activity);
+    // console.log(activity);
     function del() {
       props.deleteActivity(activity);
       props.history.push('/');

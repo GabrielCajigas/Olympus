@@ -15,16 +15,16 @@ const initState = {
           authError: null
         }
       case 'LOGOUT': 
-        console.log('Logout')
+        // console.log('Logout')
         return state
       case 'REGISTER_SUCCESS':
-        console.log('signup success')
+        // console.log('signup success')
         return {
         ...state,
         authError: null
       }
       case 'REGISTER_ERROR':
-         console.log('signup error')
+        //  console.log('signup error')
         return {
         ...state,
         authError: action.err.message

@@ -7,7 +7,7 @@ import {logOut} from '../../store/action/loginAction';
  
 
 const LogInLink = (props) => {
-    console.log(props);
+    // console.log(props);
     return (
             <ul className="rigth">
                 <a href="/login" onClick={props.logOut} className="nav-item  display-5 p-2" > Log Out </a>

@@ -41,7 +41,7 @@ class CreateActivity extends Component {
 }
 
 const mapStateToProps = (state) => {
-    console.log(state);
+    // console.log(state);
     return {
         login : state.firebase.auth
     }

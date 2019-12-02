@@ -30,7 +30,7 @@ class Dashboard extends Component {
 }
 
 const mapStateToProps = (state) => {
-    console.log(state);
+    // console.log(state);
     return {
         activities : state.firestore.ordered.activities,
         login : state.firebase.auth,
